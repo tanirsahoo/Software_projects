@@ -1,0 +1,89 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    transition: 0.5s linear;
+}
+
+.background_image_section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.background_image_section_inside_1{
+    background-image: url("/Media_Files/medical-19.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    z-index: 10;
+}
+.black_background{
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    z-index: 12;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 100vh;
+    width: 100%;
+}
+.heading_background_image_section_inside_1 h1{
+    font-weight: 600;
+    letter-spacing: 15px;
+    position: relative;
+    z-index: 15;
+    color: white;
+    font-size: 3rem;
+    padding: 0rem 0rem 1.5rem 0rem;
+}
+.heading_background_image_section_inside_1 h3{
+    font-weight: 200;
+    letter-spacing: 5px;
+    font-size: 1.3rem;
+    position: relative;
+    z-index: 15;
+    color: rgb(206, 204, 204);
+}
+.heading_background_image_section_inside_1 hr{
+    position: relative;
+    z-index: 15;
+    background-color: white;
+    margin-top: 1.5rem;
+    padding: 0.5px 0px 0.5px 0px;
+}
+.heading_background_image_section_inside_1{
+    margin: 50px 0px 0px 50px;
+}
+.attribute_for_more{
+    position: relative;
+    z-index: 15;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+.explore_more_button{
+    margin: 3rem 0rem 0rem 0rem ;
+}
+.idea_1{
+    color: red;
+}
+.idea_2{
+    color: rgb(6, 227, 6);
+}
+.attribute_for_more:hover{
+    background-color: rgb(176, 176, 176);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.2s linear;
+    padding: 1.4rem 1.4rem 1.4rem 1.4rem;
+}
