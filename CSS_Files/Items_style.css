@@ -225,7 +225,7 @@ body {
 
 .product{
     position: relative;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 0.25rem 1rem 0.25rem;
     perspective: 800px;
     width:306px;
     height:471px;
